@@ -1,0 +1,254 @@
+Problem 1
+void main1() { 
+  if (true) { 
+    int number = 42; 
+  } 
+  print(number); 
+}
+main1();
+
+output
+Error
+
+Problem 2
+void main2() { 
+  int value; 
+  if (false) { 
+    value = 100; 
+  } 
+  print(value); 
+}
+main2();
+
+output
+Error
+
+Problem 3
+int count = 5; 
+void main3() { 
+  int count = 10; 
+  print(count); 
+}
+main3();
+
+output
+10
+
+Problem 4
+void main4() { 
+  for (int i = 0; i < 3; i++) { 
+    String message = "Loop $i"; 
+    print(message); 
+  } 
+  print(message); 
+}
+main4();
+
+output
+Error
+
+Problem 5
+void processNumber(int num) { 
+  num = num + 1; 
+} 
+void main5() { 
+  print(num); 
+  int x = 5; 
+  processNumber(x); 
+  print(x); 
+}
+main5();
+
+output
+Error
+
+Problem 6
+void main6() { 
+  bool isActive = false; 
+  if (true) { 
+    bool isActive = true; 
+    print(isActive); 
+  } 
+  print(isActive); 
+}
+main6();
+
+output
+true
+false
+
+Problem 7
+void main7() { 
+  int result = 0; 
+  { 
+    int result = 50; 
+    print(result); 
+  } 
+  print(result); 
+}
+main7();
+
+output
+50
+0
+
+Problem 8
+void main8() { 
+  if (true) { 
+    String name = "Alice"; 
+  } else { 
+    String name = "Bob"; 
+  } 
+  print(name); 
+}
+main8();
+
+output
+Error
+
+Problem 9
+double price = 9.99; 
+void applyDiscount() { 
+  price = price * 0.9; 
+} 
+void main9() { 
+  double price = 20.00; 
+  applyDiscount(); 
+  print(price); 
+}
+main9();
+
+output
+20.0
+
+Problem 10
+void main10() { 
+  while (true) { 
+    int counter = 0; 
+    counter++; 
+    print(counter); 
+    break; 
+  } 
+  print(counter); 
+}
+main10();
+
+output
+Error
+
+Problem 11
+void updateValue(int val) { 
+  val = 50; 
+} 
+void main11() { 
+  int x = 10; 
+  int y = 0; 
+  if (x > 0) { 
+    updateValue(x); 
+    y = x + 5; 
+  } 
+  print(y); 
+}
+main11();
+
+output
+15
+
+Problem 12
+String status = "Idle"; 
+void toggleStatus() { 
+  String status = "Active"; 
+} 
+void main12() { 
+  toggleStatus(); 
+  print(status); 
+}
+main12();
+
+output
+Idle
+
+Problem 13
+void main13() { 
+  bool flag = false; 
+  void innerFunc() { 
+    flag = true; 
+    int count = 10; 
+  } 
+  innerFunc(); 
+  print(count); 
+}
+main13();
+
+output
+Error
+
+Problem 14
+void compute(int num) { 
+  if (num > 0) { 
+    String message = "Positive"; 
+  } 
+} 
+void main14() { 
+  compute(5); 
+  print(message); 
+}
+main14();
+
+output
+Error
+
+Problem 15
+int score = 100;
+void resetScore() {
+  score = 0;
+}
+void adjustScore() {
+  int score = 50;
+  resetScore();
+}
+void main15() {
+  adjustScore();
+  print(score);
+}
+main15();
+
+output
+0
+
+Problem 16
+void main16() {
+  double average = 0.0;
+  {
+    int count = 3;
+    {
+      double total = 15.0;
+      average = total / count;
+    }
+  }
+  print(average);
+}
+main16();
+
+output
+5.0
+
+Problem 17
+void increment(int value) {
+  value += 1;
+}
+void main17() {
+  int sum = 0;
+  for (int i = 0; i < 3; i++) {
+    increment(i);
+    if (i == 2) {
+      bool done = true;
+      sum += i;
+    }
+  }
+  print(sum);
+}
+main17();
+
+output
+3
