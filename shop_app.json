@@ -1,0 +1,68 @@
+
+
+{
+    "name": "Oreo Biscuit",
+    "description": "Chocolate sandwich biscuit with vanilla cream.",
+    "price": 9,
+    "category": "Food",
+    "url": "https://www.bigbasket.com/pd/100423120/cadbury-oreo-creame-biscuit-vanilla-463-g/?z=MzE0OTkyNTYwNw&utm_source=google&utm_medium=cpc&utm_campaign=Delhi-PLA%2F",
+	"stock": "Available",
+    "quality": "you can trust",
+    "Flavor": "Cadbury Oreo",
+    "Offer": "You Save : 10% ",
+    "weight": "41.75g",
+    "images": "https://www.bbassets.com/media/uploads/p/l/100423120_45-cadbury-oreo-creame-biscuit-vanilla.jpg"					
+}
+ {
+   "name": "zara men's T-Shirt",
+    "description": "Cotton T-shirt with printed logo.",
+    "price": 950,
+    "category": "Clothing",
+    "url": "https://www.zara.com/in/en/-b-a-s-i-c---s-l-i-m---f-i-t---t---s-h-i-r-t--p05584361.html?v1=416633327",
+    "stock": "Available",
+    "size": "slim fit",
+    "Composition": "95 % cotton",
+    "color": "black",
+    "weight": "200g",
+    "images": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQkBXfnvx4fswAhpNqL8NP69fP4D-1fTsFddvLy9V-TerE0I_hNzWZnBR4iCwVCJJHNYC34P-pFx_jY4es0ABRRoprwgF7L1w9TFOjZ9LRv3wucXrVm_07fxWhb"
+ }
+{
+	"name": "Apple iPhone 15",
+    "description": "Latest Apple iPhone with A16 Bionic chip and dynamic island display.",
+    "price": 71999,
+    "category": "Mobile",
+    "url": "https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX2F5QT?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=AJ6SIZC8YQDZX&th=1",
+    "stock": "Available",
+    "battery_life": "20 hours",
+    "charging_time": "1.5 hours",
+    "connectivity": "5G",
+    "weight": "171g",
+    "images": "https://m.media-amazon.com/images/I/71d7rfSl0wL._SX466_.jpg"
+}
+{"name": "Casio G-Shock Watch",vs 
+    "description": "Shock-resistant, water-resistant digital watch with multiple features.",
+    "price": "9195",
+    "category": "Watch",
+    "url": "https://www.amazon.in/Casio-Analog-Digital-Black-Watch-GA-2100-1A1DR-G987/dp/B07YCTCMFK?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1JFLV2BUSJ5AK",
+    "stock": "Available",
+    "battery_life": "2 years",
+    "brand color": "black",
+    "connectivity": ["none"],
+    "weight": "51g",
+    "images": "https://m.media-amazon.com/images/I/61E+kMgwUVL._SX522_.jpg"
+  
+},
+  {
+    "name": "boAt Airdopes 161",
+    "description": "Wireless Earbuds With Massive Playback of up to 40 Hours, IPX5 Water & Sweat Resistance, IWP Technology, Type-C interface.",
+    "price": "899",
+    "category": "Electronics",
+    "url": "https://www.boat-lifestyle.com/products/airdopes-161?variant=39539517227106&country=IN&currency=INR",
+    "stock": "Sale on online",
+    "battery_life": "30 hours",
+    "charging_time": "2 hours",
+    "connectivity": "Bluetooth, 3.5mm jack",
+    "weight": "250g",
+    "images":"https://www.boat-lifestyle.com/cdn/shop/files/ACCG6DS7WDJHGWSH_0_1000x.png?v=1727669669"
+    
+  } 
