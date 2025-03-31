@@ -1,4 +1,4 @@
- Day 23 report 
+# Day 23 report 
  
 In a database, keys and joins are very important for managing and getting data. They help to organize information and make it easy to find and connect data from different tables. This report explains about primary keys, composite keys, foreign keys, inner joins, and left joins in a simple way with examples.
 
