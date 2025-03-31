@@ -1,4 +1,4 @@
-# Project
+# Project  1
 Building this Node.js application was a very good experience for me. I made a backend service using Express, Mongoose, and MongoDB. The application handle CRUD operations to manage products and campaigns. This project teached me many things about using databases, handling HTTP requests, and working with Mongoose to interact with MongoDB.  
 
 First, I setup the application by importing Express and Mongoose. Express is a framework for Node.js that make it easier to handle HTTP requests, routes, and middleware. Mongoose is a Object Data Modeling (ODM) library for MongoDB and Node.js. It provide a way to define schemas, validate data, and create models for MongoDB collections. This make working with MongoDB easier by providing helpful methods. In the code, I also setup Express app and use express.json() middleware. This middleware parse incoming JSON data so it can be accessed in the request body.  
